@@ -1,0 +1,36 @@
+{
+  "name": "babel-webpack-cowsay-esm",
+  "version": "1.0.0",
+  "description": "Babel ES6+ to ES5 on browsers that need conversion also using webpack to bundle files and allow module import/export in nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm script.js",
+    "build": "node build.js",
+    "server": "node run-server.js"
+  },
+  "keywords": [
+    "hello",
+    "world",
+    "helloworld",
+    "hello world",
+    "javascript",
+    "node"
+  ],
+  "author": "Bello Noah",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "cowsay": "^1.4.0",
+    "esm": "^3.2.25",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.1.3"
+  }
+}
